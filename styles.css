@@ -1,0 +1,9 @@
+body {
+    font-family: 'Arial', sans-serif;
+    direction: ltr; /* Default direction is left-to-right */
+}
+
+/* Additional styles for RTL */
+body[dir="rtl"] {
+    direction: rtl;
+}
